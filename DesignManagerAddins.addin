@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			6DCC7781-5761-4558-9100-203AF6F72C9E
+		</AddInId>
+		<FullClassName>DesignManagerAddins.ViewsToSheet</FullClassName>
+		<Text>ViewsToSheet</Text>
+		<Description>Moves  chosen VIEWS TO A SHEET</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			3B5B5D46-AC9F-49ED-B3F5-D77762C39B8E
+		</AddInId>
+		<FullClassName>DesignManagerAddins.HangerPlacement</FullClassName>
+		<Text>HangerPlacement</Text>
+		<Description>Puts hangers on ducts</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			9558DAF5-B9E5-43E4-965C-23B8A0C77E29
+		</AddInId>
+		<FullClassName>DesignManagerAddins.CabletrayHangers</FullClassName>
+		<Text>CabletrayHangers</Text>
+		<Description>Puts hangers on ducts</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	
+	<AddIn Type="Application">
+		<Name>ApplicationPlugin</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			1DD12ACD-BCD9-4A76-ADA6-655555A5D2D2
+		</AddInId>
+		<FullClassName>DesignManagerAddins.ExternalApplication</FullClassName>
+		<Text>HangerPlacement</Text>
+		<Description>my App</Description>
+		<VendorId>Levi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+	</AddIn>
+	
+	<AddIn Type="Application">
+		<Name>ApplicationPlugin</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			908CB25A-F704-413F-B4EC-18DA271F13A4
+		</AddInId>
+		<FullClassName>DesignManagerAddins.ExternaAppFindReplace</FullClassName>
+		<Text>FindReplace</Text>
+		<Description>my App</Description>
+		<VendorId>Levi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			FB47B234-9A50-4AD0-9FC5-A7B89377C230
+		</AddInId>
+		<FullClassName>DesignManagerAddins.FindReplace</FullClassName>
+		<Text>FindReplace</Text>
+		<Description>find and replace</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			6EDFE9A8-7B12-4779-9723-3E85245539E4
+		</AddInId>
+		<FullClassName>DesignManagerAddins.TagAdd</FullClassName>
+		<Text>TagAdd</Text>
+		<Description>tag elements</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			3D510806-8F1E-40A4-B1D7-2CEBFC1281E1
+		</AddInId>
+		<FullClassName>DesignManagerAddins.WorkStatus</FullClassName>
+		<Text>WorkStatus</Text>
+		<Description>WorkStatus</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			C33F712B-F780-4A0C-BE15-FF9C8B0403B3
+		</AddInId>
+		<FullClassName>DesignManagerAddins.RoomTagger</FullClassName>
+		<Text>RoomTagger</Text>
+		<Description>RoomTagger</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>DesignManagerAddins</Name>
+		<Assembly>DesignManagerAddins.dll</Assembly>
+		<AddInId>
+			C72B26C6-C12F-493E-B5B8-ACC4457E6EE1
+		</AddInId>
+		<FullClassName>DesignManagerAddins.CaseworkParamt</FullClassName>
+		<Text>CaseworkParamt</Text>
+		<Description>CaseworkParamt</Description>
+		<VendorId>OrLevi</VendorId>
+		<VendorDescription>@BIMManager</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+</RevitAddIns>
